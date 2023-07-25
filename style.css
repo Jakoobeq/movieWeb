@@ -2,7 +2,7 @@ h1 {
     margin-top: 1.5em;
     margin-bottom: 1.75em;
     color: antiquewhite;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +32,7 @@ h1 {
     
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
     color: antiquewhite;
     
 }
@@ -98,7 +98,7 @@ h2 {
     margin-top: 2em;
     margin-bottom: 0.75em;
     color: rgb(0, 0, 0);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,7 +126,8 @@ body {
 }
 
 .btn-custom {
-    scale: 1.2;
+    font-family: 'Comfortaa', cursive;
+    scale: 1.1;
     border-radius: 2em;
     background-color: black;
     color: antiquewhite;
@@ -157,14 +158,15 @@ body {
 }
 
 h3 {
-    font-weight: 300;
-    font-size: 1.3em;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 100;
+    font-size: 1.2em;
 }
 
 .movie_picker {
 
     color: antiquewhite;
-    top: 6.2em;
+    top: 5.4em;
     position: relative;
     width:auto;
     display: flex;
