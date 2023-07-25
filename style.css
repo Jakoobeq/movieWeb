@@ -1,13 +1,13 @@
 h1 {
-    margin-top: 3em;
-    margin-bottom: 0.75em;
-    color: rgb(0, 0, 0);
+    margin-top: 1.5em;
+    margin-bottom: 1.75em;
+    color: antiquewhite;
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5em;
-    font-weight: 600;
+    font-size: 2em;
+    font-weight: 400;
 }
 
 .flex-container {
@@ -26,10 +26,15 @@ h1 {
     align-items: center;
 }
 
+
+
 .navbar-custom {
-    background-color: black;
+    
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
     font-family: 'Roboto', sans-serif;
     color: antiquewhite;
+    
 }
 
 .navbar-custom .navbar-brand {
@@ -82,8 +87,7 @@ h1 {
 
 .container_text {
     position: relative;
-    bottom: 2.5em;
-    background-color:rgb(201, 200, 200);
+    bottom: -1.5em;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -104,10 +108,25 @@ h2 {
 }
 
 body {
-    background-color: rgb(232, 231, 231);
+    background: linear-gradient(300deg, rgb(41, 41, 41), rgb(38, 38, 38), rgb(213, 218, 180));
+    background-size: 180% 180%;
+    animation: gradient-animation 15s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .btn-custom {
+    scale: 1.2;
     border-radius: 2em;
     background-color: black;
     color: antiquewhite;
@@ -120,7 +139,7 @@ body {
 
 .carousel {
     margin: auto;
-    margin-left: 0.7em;
+    margin-left: 1.7em;
     float: left;
     display: flex;
     justify-content: center;
@@ -138,11 +157,14 @@ body {
 }
 
 h3 {
-    font-size: 0.9em;
+    font-weight: 300;
+    font-size: 1.3em;
 }
 
 .movie_picker {
-    top: 8em;
+
+    color: antiquewhite;
+    top: 6.2em;
     position: relative;
     width:auto;
     display: flex;
