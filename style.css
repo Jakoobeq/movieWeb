@@ -108,9 +108,10 @@ h2 {
 }
 
 body {
+    
     background: linear-gradient(300deg, rgb(41, 41, 41), rgb(38, 38, 38), rgb(213, 218, 180));
     background-size: 180% 180%;
-    animation: gradient-animation 15s ease infinite;
+    animation: gradient-animation 30s ease infinite;
 }
 
 @keyframes gradient-animation {
@@ -129,12 +130,12 @@ body {
     font-family: 'Comfortaa', cursive;
     scale: 1.1;
     border-radius: 2em;
-    background-color: black;
+    background-color: rgb(73, 73, 73);
     color: antiquewhite;
 }
 
 .btn-custom:hover {
-    background-color: antiquewhite;
+    background-color: rgb(77, 75, 72);
     color: black;
 }
 
